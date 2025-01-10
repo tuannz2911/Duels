@@ -22,8 +22,8 @@ jobs:
           distribution: 'temurin'
 
       # Run Maven build
-      - name: Build with Maven
-        run: mvn clean install
+      - name: Build plugin
+        run: ./gradle build
 
 
       # Upload build artifacts

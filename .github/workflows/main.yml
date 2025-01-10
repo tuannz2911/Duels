@@ -23,7 +23,7 @@ jobs:
 
       # Run Maven build
       - name: Build plugin
-        run: ./gradle build
+        run: ./gradlew build
 
 
       # Upload build artifacts
